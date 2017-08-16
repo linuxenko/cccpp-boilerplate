@@ -1,0 +1,13 @@
+before_install:
+  - sudo apt-get install -y cmake catch
+env:
+  - CXX=g++5
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-5
+script:
+  - mkdir build; cd build; cmake ../; make; make Test
+

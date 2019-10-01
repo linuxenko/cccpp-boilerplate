@@ -2,11 +2,11 @@
 
 [![Build Status](https://img.shields.io/travis/linuxenko/cccpp-boilerplate.svg?style=flat-square)](https://travis-ci.org/linuxenko/cccpp-boilerplate)
 
-Most simple and robust c++ boilerplate for cmake with `catch` based tests.
+Most simple and robust c++ boilerplate for `cmake` with `catch` based tests.
 
 ### Why ?
 
-There are alot of broken, misconfigured boilerplates. The worst part is dependencies which does not suite my needs.
+There are lots of broken, misconfigured boilerplates. The worst part is dependencies which does not suite my needs.
 It is the reason I've created another boilerplate and share it with you.
 
 ### Installation

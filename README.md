@@ -1,6 +1,5 @@
 ## cmake, catch c++ boilerplate
 
-[![Donate](https://img.shields.io/badge/donate-3$-green.svg?style=flat-square)](https://www.linuxenko.pro/donate.html#?amount=3)
 [![Build Status](https://img.shields.io/travis/linuxenko/cccpp-boilerplate.svg?style=flat-square)](https://travis-ci.org/linuxenko/cccpp-boilerplate)
 
 Most simple and robust c++ boilerplate for cmake with catch tests.

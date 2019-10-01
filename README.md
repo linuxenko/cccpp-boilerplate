@@ -2,12 +2,12 @@
 
 [![Build Status](https://img.shields.io/travis/linuxenko/cccpp-boilerplate.svg?style=flat-square)](https://travis-ci.org/linuxenko/cccpp-boilerplate)
 
-Most simple and robust c++ boilerplate for cmake with catch tests.
+Most simple and robust c++ boilerplate for cmake with `catch` based tests.
 
 ### Why ?
 
-There is alot of broken, misconfigured boilerplates. The worst part is dependencies they are trying to handle in a very wrong way.
-It is because i'd create another one for my needs and share it with you.
+There are alot of broken, misconfigured boilerplates. The worst part is dependencies which does not suite my needs.
+It is the reason I've created another boilerplate and share it with you.
 
 ### Installation
 
@@ -17,7 +17,7 @@ It is because i'd create another one for my needs and share it with you.
 git clone https://github.com/linuxenko/cccpp-boilerplate.git
 ```
 
-2. Dependencies ! Haha, i'm sure you guess that you should install `cmake` and `catch` on your system :)
+2. Dependencies ! I'm sure you have installed `cmake` and `catch` on your system already, if not:
 
 ```
 sudo apt install g++5 cmake catch
@@ -25,7 +25,7 @@ sudo apt install g++5 cmake catch
 
 ### Make the project
 
-Lets build boilerplate project
+Lets build the boilerplate (empty) project
 
 ```
 > mkdir build
@@ -42,7 +42,7 @@ Lets build boilerplate project
 
 ### Automatically rebuild project and run tests
 
-There is many different options to watch filesystem changes, i prefer tools from repository such as `rerun`.
+There are many different ways to watch filesystem changes, I prefer tools such as `rerun`.
 To watch, build and run tests for every file change:
 
 ```
